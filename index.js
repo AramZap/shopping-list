@@ -18,8 +18,10 @@ addButtonEl.addEventListener("click", function() {
     
     if (inputValue !== "" && inputValue !== " ") {
         push(shoppingListInDB, inputValue)
-        clearInputFieldEl()
     }
+
+    clearInputFieldEl()
+
 })
 
 onValue(shoppingListInDB, function(snapshot) {
