@@ -43,7 +43,6 @@ button {
 }
 
 button:hover {
-    background-color: #9a8c98;
     cursor: pointer;
 }
 
